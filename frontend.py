@@ -9,7 +9,7 @@ import os
 from datetime import datetime
 
 # Backend URL
-BACKEND_URL = os.environ.get("BACKEND_URL", "https://ai-chatbot-2-9dbh.onrender.com")
+BACKEND_URL = os.environ.get("BACKEND_URL", "https://abc-wnse.onrender.com/")
 
 # Initialize session state for authentication and user management
 if 'authenticated' not in st.session_state:
